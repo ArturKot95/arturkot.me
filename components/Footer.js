@@ -24,10 +24,18 @@ export default function Footer({ copyrightText }) {
         {copyrightText}
       </p>
       <div className="dark:text-white uppercase mb-3 font-bold opacity-60 flex gap-2">
-        <a target="_blank" href="https://github.com/ArturKot95">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/ArturKot95"
+        >
           {githubIcon}
         </a>
-        <a target="_blank" href="https://www.linkedin.com/in/artur-kot/">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/artur-kot/"
+        >
           {linkedinIcon}
         </a>
       </div>
