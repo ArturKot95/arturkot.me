@@ -93,7 +93,7 @@ export default function Header({ name }) {
             <div>
               <Image src="/logo.png" width="64" height="64" alt="cat logo" />
             </div>
-            <span>{name}</span>
+            <span className="blog-title">{name}</span>
           </a>
         </Link>
       </p>
