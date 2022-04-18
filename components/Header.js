@@ -91,7 +91,7 @@ export default function Header({ name }) {
         <Link href="/">
           <a>
             <div>
-              <Image src="/logo.png" width="64" height="64" />
+              <Image src="/logo.png" width="64" height="64" alt="cat logo" />
             </div>
             <span>{name}</span>
           </a>
